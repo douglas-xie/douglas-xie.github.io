@@ -144,19 +144,19 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-CheatSheets/Pandas" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-CheatSheets/Scipy" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/CheatSheets/Pandas/">Pandas</a>
+      <a class="article-title" href="/CheatSheets/Scipy/">Scipy</a>
     </h1>
   
 
         
-        <a href="/CheatSheets/Pandas/" class="archive-article-date">
+        <a href="/CheatSheets/Scipy/" class="archive-article-date">
   	<time datetime="2019-09-08T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-09</time>
 </a>
         
@@ -164,12 +164,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Pandas"><a href="#Pandas" class="headerlink" title="Pandas"></a>Pandas</h1><blockquote>
+        <h1 id="Scipy"><a href="#Scipy" class="headerlink" title="Scipy"></a>Scipy</h1><blockquote>
 <p>声明：本页面的所有CheatSheet来源于<a target="_blank" rel="noopener" href="https://github.com/kailashahirwar/cheatsheets-ai">cheatsheets-ai项目</a>。</p>
 </blockquote>
-<p><img src="https://github.com/douglas-xie/cheatsheets-ai/blob/master/Pandas-1.jpg?raw=true"></p>
-<p><img src="https://github.com/douglas-xie/cheatsheets-ai/blob/master/Pandas-2.jpg?raw=true"></p>
-<p><img src="https://github.com/douglas-xie/cheatsheets-ai/blob/master/Pandas-3.png?raw=true"></p>
+<p><img src="https://github.com/douglas-xie/cheatsheets-ai/blob/master/Scipy.png?raw=true"></p>
 
       
 
@@ -204,112 +202,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/CheatSheets/Pandas/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-信息的计算" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/%E4%BF%A1%E6%81%AF%E7%9A%84%E8%AE%A1%E7%AE%97/">信息的计算</a>
-    </h1>
-  
-
-        
-        <a href="/%E4%BF%A1%E6%81%AF%E7%9A%84%E8%AE%A1%E7%AE%97/" class="archive-article-date">
-  	<time datetime="2019-08-26T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-27</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="信息的计算"><a href="#信息的计算" class="headerlink" title="信息的计算"></a>信息的计算</h2><blockquote>
-<p>信息的作用在于消除不确定性。</p>
-</blockquote>
-<p><strong>信息的单位</strong></p>
-<p>信息量使用“比特”（Bit）这个概念来度量。</p>
-<p>每一个物理量都有单位，如：<em>千克</em>。</p>
-<p>我们如何确定一个物品包含了多少<em>千克</em>的质量？</p>
-<blockquote>
-<p>首先，定义1千克质量的参照标准。即，设定一个物品的质量为1千克。以后，要度量一个物品是多少千克，就拿这个1千克的物品与它比较。如果该物品的质量与n个1千克参照标准质量相等，那么该物品的质量为<strong>n</strong>千克。</p>
-</blockquote>
-<p>同样的，要确定一条信息包含多少的信息量，我们也需要设定一个参照对象，用该信息包含了多少个参照对象来表示它的信息量。</p>
-<p>计算机由以二进制为基础的数字电路所组成。一个二进制数用一个比特表示。以1比特为参照标准来度量信息量的大小。1比特就包含了两个信息量（0或1），2比特包含了四个信息（0,1,2或3）……以此类推，有n个比特，能够表示的信息量m为<br>$$<br>m=2^n<br>$$<br>吴军《数学之美》中举的例子</p>
-<blockquote>
-<p>2014年举行了世界杯足球赛，大家都很关心谁会是冠军。假如我错过了看世界杯，赛后我问一个知道比赛结果的观众“哪支球队是冠军”？他不愿意直接告诉我，而让我猜，并且我没猜一次，他要收我一元钱才肯告诉我是否猜对了，那么我要掏多少钱才能知道谁是冠军呢？</p>
-<p>我可以把球队编上号，从1到32，然后提问：“冠军球队在1-16号中吗？“假如他告诉我猜对了，我会接着问：”冠军在1-8号中吗？“假如他告诉我猜错了，我自然知道冠军队在9-16号中。这样只需要五次，我就能知道哪只球队是冠军。所以，谁是世界冠军这条消息的信息量只值5块钱。</p>
-</blockquote>
-<p>”钱“转换到计算中的表示就是”比特“。相同的，32只球队中，”谁是世界杯冠军“的信息量就是<br>$$<br>log32=5bit<br>$$<br>当然，以上是基于所有不确定性发生概率相等的情况（每只球队获得世界杯冠军的概率相等）。实际中，每一个不确定发生的概率是不一样的，在上例32只球队中存在强队和弱队，它们获得冠军的概率都不相同。这时候，”谁是世界杯冠军“的信息量就得用信息熵来计算。</p>
-<p>假设球队$i$的赢得冠军的概率为$P(x)$，信息量就变为<br>$$<br>-(P(1)logP(1)+P(2)logP(2)+\dots +P(32)logP(32))\tag{1}<br>$$<br>对于这个式子的解释，是<strong>每个球队是冠军说包含的信息量乘以它们的概率再全部球队求和</strong>。</p>
-<p>怎么计算一个球队是冠军的信息量呢？</p>
-<p>要计算一支球队是冠军的信息量，得知道这支球队有多大的可能是冠军。我们没法直接从概率中得到每个可能性包含的信息量，但由概率的定义是，概率的倒数表示的是该可能性有多少个相同的概率组成，所以可以用概率的倒数表示每个可能性的信息量。即<br>$$<br>log\frac{1}{P(x)}=-logP(x)<br>$$<br>然后用公式(1)即可求得”谁是世界杯冠军“的信息量了。</p>
-<p>因此，即得到<strong>信息熵的定义</strong><br>$$<br>H(X)=-\sum_{x\in X}P(x)\cdot logP(x)<br>$$</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">数学</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/数学//" class="article-tag-list-link color3">数学</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/%E4%BF%A1%E6%81%AF%E7%9A%84%E8%AE%A1%E7%AE%97/">展开全文 >></a>
+          <a class="article-more-a" href="/CheatSheets/Scipy/">展开全文 >></a>
         </p>
       
 
@@ -547,6 +440,111 @@
 
 
   
+    <article id="post-信息的计算" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/%E4%BF%A1%E6%81%AF%E7%9A%84%E8%AE%A1%E7%AE%97/">信息的计算</a>
+    </h1>
+  
+
+        
+        <a href="/%E4%BF%A1%E6%81%AF%E7%9A%84%E8%AE%A1%E7%AE%97/" class="archive-article-date">
+  	<time datetime="2019-08-26T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-27</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="信息的计算"><a href="#信息的计算" class="headerlink" title="信息的计算"></a>信息的计算</h2><blockquote>
+<p>信息的作用在于消除不确定性。</p>
+</blockquote>
+<p><strong>信息的单位</strong></p>
+<p>信息量使用“比特”（Bit）这个概念来度量。</p>
+<p>每一个物理量都有单位，如：<em>千克</em>。</p>
+<p>我们如何确定一个物品包含了多少<em>千克</em>的质量？</p>
+<blockquote>
+<p>首先，定义1千克质量的参照标准。即，设定一个物品的质量为1千克。以后，要度量一个物品是多少千克，就拿这个1千克的物品与它比较。如果该物品的质量与n个1千克参照标准质量相等，那么该物品的质量为<strong>n</strong>千克。</p>
+</blockquote>
+<p>同样的，要确定一条信息包含多少的信息量，我们也需要设定一个参照对象，用该信息包含了多少个参照对象来表示它的信息量。</p>
+<p>计算机由以二进制为基础的数字电路所组成。一个二进制数用一个比特表示。以1比特为参照标准来度量信息量的大小。1比特就包含了两个信息量（0或1），2比特包含了四个信息（0,1,2或3）……以此类推，有n个比特，能够表示的信息量m为<br>$$<br>m=2^n<br>$$<br>吴军《数学之美》中举的例子</p>
+<blockquote>
+<p>2014年举行了世界杯足球赛，大家都很关心谁会是冠军。假如我错过了看世界杯，赛后我问一个知道比赛结果的观众“哪支球队是冠军”？他不愿意直接告诉我，而让我猜，并且我没猜一次，他要收我一元钱才肯告诉我是否猜对了，那么我要掏多少钱才能知道谁是冠军呢？</p>
+<p>我可以把球队编上号，从1到32，然后提问：“冠军球队在1-16号中吗？“假如他告诉我猜对了，我会接着问：”冠军在1-8号中吗？“假如他告诉我猜错了，我自然知道冠军队在9-16号中。这样只需要五次，我就能知道哪只球队是冠军。所以，谁是世界冠军这条消息的信息量只值5块钱。</p>
+</blockquote>
+<p>”钱“转换到计算中的表示就是”比特“。相同的，32只球队中，”谁是世界杯冠军“的信息量就是<br>$$<br>log32=5bit<br>$$<br>当然，以上是基于所有不确定性发生概率相等的情况（每只球队获得世界杯冠军的概率相等）。实际中，每一个不确定发生的概率是不一样的，在上例32只球队中存在强队和弱队，它们获得冠军的概率都不相同。这时候，”谁是世界杯冠军“的信息量就得用信息熵来计算。</p>
+<p>假设球队$i$的赢得冠军的概率为$P(x)$，信息量就变为<br>$$<br>-(P(1)logP(1)+P(2)logP(2)+\dots +P(32)logP(32))\tag{1}<br>$$<br>对于这个式子的解释，是<strong>每个球队是冠军说包含的信息量乘以它们的概率再全部球队求和</strong>。</p>
+<p>怎么计算一个球队是冠军的信息量呢？</p>
+<p>要计算一支球队是冠军的信息量，得知道这支球队有多大的可能是冠军。我们没法直接从概率中得到每个可能性包含的信息量，但由概率的定义是，概率的倒数表示的是该可能性有多少个相同的概率组成，所以可以用概率的倒数表示每个可能性的信息量。即<br>$$<br>log\frac{1}{P(x)}=-logP(x)<br>$$<br>然后用公式(1)即可求得”谁是世界杯冠军“的信息量了。</p>
+<p>因此，即得到<strong>信息熵的定义</strong><br>$$<br>H(X)=-\sum_{x\in X}P(x)\cdot logP(x)<br>$$</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">数学</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/数学//" class="article-tag-list-link color3">数学</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/%E4%BF%A1%E6%81%AF%E7%9A%84%E8%AE%A1%E7%AE%97/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
   
     <nav id="page-nav">
       <a class="extend prev" rel="prev" href="/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
@@ -661,11 +659,11 @@ MathJax.Hub.Queue(function() {
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">数学</a>
+                <a href="javascript:void(0)" class="js-tag color3">学习</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">学习</a>
+                <a href="javascript:void(0)" class="js-tag color3">数学</a>
               </li>
              
               <li class="article-tag-list-item">
